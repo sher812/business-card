@@ -1,0 +1,148 @@
+html {
+    background-color: #23252C;
+    height: 100%;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0px;
+    background-color: #23252C;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-size: 10px;
+    line-height: 15px;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 12px;
+}
+
+.profile-pic {
+    display: block;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.card-body {
+    background-color: #1A1B21;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 10px;
+    overflow: hidden;
+
+    box-shadow: 5px 5px 8px rgb(32, 32, 32);
+}
+
+.name-section {
+    padding: 16px;
+    padding-bottom: 0px;
+    width: 25%;
+    text-align: center;
+}
+
+.name-section > h1 {
+    line-height: 30.26px;
+}
+
+.name-section > p {
+    line-height: 15px;
+    margin-bottom: 10px;
+    color: #F5F5F5;
+}
+
+.name-section > h2 {
+    color: #F3BF99; 
+}
+
+.contact-btns {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+.email-btn, .linkedin-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 3px;
+    width: 115px;
+    height: 34px;
+
+    font-weight: 500;
+    border-radius: 5px;
+    border-style: solid;
+}
+
+.email-btn {
+    background-color: #FFFFFF;
+    border-color: #DCDCDC;
+}
+
+.linkedin-btn {
+    color: white;
+    background-color: #5093E2;
+    border-color: #5093E2;
+}
+
+.info-section {
+    width:25%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.info-section > span {
+    padding: 10px 24px 10px 24px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+}
+
+.info-section > span > h1 {
+    color: #F5F5F5;
+}
+
+.info-section > span > p {
+    color: #DCDCDC;
+}
+
+.card-body, .name-section, .info-section, .profile-pic {
+    width: 300px;
+}
+
+.card-body, .name-section, .info-section, h1, h2, p {
+    margin: 0;
+}
+
+.footer-section {
+    background-color: #161619;
+    padding: 8px;
+    gap: 24px;
+
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+button:hover {
+    cursor: pointer;
+}
